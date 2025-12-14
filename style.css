@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.4;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.navbar{
+    /* background-color: black; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    width: 140px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 10px;
+}
+
+.language{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.signin{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/* herosection */
